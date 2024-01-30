@@ -22,9 +22,10 @@
 
 .card button{
     border: none;
-    padding: 15px;
+    padding: 10px;
     background-color: #fff;
     margin-top: 20px;
+    min-width: 250px;
 }
 footer a{
     color: #fff;
