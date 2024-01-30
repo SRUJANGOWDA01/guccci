@@ -7,9 +7,39 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 10px;
 }
-.card img{
+header a{
+    color: #222;
+    font-size: 1em;
+    text-decoration: none;
 }
+header h2 {
+    letter-spacing: 0.8em;
+    font-style: Poppins;
+}
+
+header button {
+    border: none;
+    background-color :#fff ;
+    letter-spacing: 0.3em;
+}
+header a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container-fluid .fespan {
+    text-align: center;
+    font-size: medium;
+    font-weight: bolder;
+    padding: 20px 700px;
+}
+
+/* .container-fluid .col-12 a {
+    color: #222;
+    text-decoration: underline;
+    font-size: 1em;
+} */
 .card{
     position: relative;
 }
