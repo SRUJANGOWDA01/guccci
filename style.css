@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card img{
+    height: 600px;
+}
+.card{
+    position: relative;
+}
+.card .card-text{
+    position: absolute;
+    bottom: 10px;
+    left:50%;
+    color: #fff;
+    transform: translateX(-50%);
+    text-align: center;
+
+
+}
+
+.card button{
+    border: none;
+    padding: 15px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+footer a{
+    color: #fff;
+}
+footer ul li{
+    margin-bottom: 20px;
+    list-style-type: none
+}
+footer h1{
+    margin-bottom: 20px;
+}
+footer input{
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+}
