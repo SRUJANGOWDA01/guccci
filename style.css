@@ -3,7 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .card img{
 }
 .card{
@@ -16,8 +20,6 @@
     color: #fff;
     transform: translateX(-50%);
     text-align: center;
-
-
 }
 
 .card button{
@@ -27,6 +29,9 @@
     margin-top: 20px;
     min-width: 250px;
 }
+ .card img {
+    height:500px ;
+ }
 footer a{
     color: #fff;
 }
